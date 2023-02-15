@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="util.css">
+      
+</head>
+<body>
+    <h1 class="text-center ">Calculator Using HTML ,CSS & JavaScript</h1>
+    <form name="Calculator">
+    <div class="container flex flex-col bg-color mx-auto item-center">
+        <div class="row">
+            <input type="text" name="Input" class="input">
+        </div>
+        <div class="row">
+            <input type="button"  class="class" name = "clear"  value=" c " OnClick="Calculator.Input.value = ''">
+            <input type="button" class="class"   value=" %" OnClick="Calculator.Input.value += '%'">  
+            <input type="button" class="class"  value=" M+" OnClick="Calculator.Input.value += ''">
+            <button class="class1">M-</button>
+        </div>
+        <div class="row">
+            <input type="button" class="class"  value=" 7" OnClick="Calculator.Input.value += '7'">
+            <input type="button" class="class"  value=" 8" OnClick="Calculator.Input.value += '8'">  
+            <input type="button" class="class"   value=" 9" OnClick="Calculator.Input.value += '9'">
+            <input type="button" class="class1"   value=" *" OnClick="Calculator.Input.value += '*'">
+        </div>
+        <div class="row">
+            <input type="button" class="class" name = "four"  value=" 4" OnClick="Calculator.Input.value += '4'">
+            <input type="button" class="class" name = "five"  value=" 5" OnClick="Calculator.Input.value += '5'">  
+            <input type="button" class="class" name = "six"  value=" 6" OnClick="Calculator.Input.value += '6'">
+            <input type="button" class="class1"   value=" /" OnClick="Calculator.Input.value += '/'">
+        </div>
+        <div class="row">
+            <input type="button" class="class" name = "one"  value=" 1 " OnClick="Calculator.Input.value += '1'">
+            <input type="button" class="class" name = "two"  value=" 2 " OnClick="Calculator.Input.value += '2'">
+            <input type="button" class="class" name = "three"  value=" 3 " OnClick="Calculator.Input.value += '3'">
+            <input type="button" class="class1" name = "add"  value=" + " OnClick="Calculator.Input.value += '+'">
+        </div>
+        <div class="row">
+            <input type="button" class="class"   value=" 0" OnClick="Calculator.Input.value += '0'">
+            <input type="button" class="class"   value=" ." OnClick="Calculator.Input.value += '.'">  
+            <input type="button" class="class" id="eq" value=" =" >
+            <input type="button" class="class1"   value=" -" OnClick="Calculator.Input.value += '-'">
+        </div>
+    </div>
+</form>
+    <script src="script.js"></script>
+</body>
+<script>
+ 
+</script>
+</html>
